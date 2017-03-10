@@ -1,0 +1,15 @@
+{
+  "query" : {
+    "constant_score" : {
+      "filter" : {
+        "bool" : {
+          "must" : [
+            { "match_phrase_prefix" : {"message" : "home.helloworld:"}},
+            { "match_phrase_prefix" : {"message" : "LOGGER/LOG:ID1234"}},
+            { "match" : {"message" : "received, {\"uuid\"=\"abc123\"}"}}
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+2014-07-02 20:52:39 INFO home.helloworld: LOGGER/LOG:ID1234 has successfully been received, {"uuid"="abc123"}
+2014-07-02 20:52:39 INFO home.helloworld: LOGGER/LOG:ID1234 has successfully been transferred, {"uuid"="abc123"}
+2014-07-02 20:52:39 INFO home.byebyeworld: LOGGER/LOG:ID1234 has successfully been processed, {"uuid"="abc123"}
+2014-07-02 20:52:39 INFO home.byebyeworld: LOGGER/LOG:ID1234 has exited, {"uuid"="abc123"}
+2014-07-02 20:53:00 INFO home.helloworld: LOGGER/LOG:ID1234 has successfully been received, {"uuid"="def123"}
+2014-07-02 20:53:00 INFO home.helloworld: LOGGER/LOG:ID1234 has successfully been transferred, {"uuid"="def123"}
+2014-07-02 20:53:00 INFO home.byebyeworld: LOGGER/LOG:ID1234 has successfully been processed, {"uuid"="def123"}
+2014-07-02 20:53:00 INFO home.byebyeworld: LOGGER/LOG:ID1234 has exited, {"uuid"="def123"}
