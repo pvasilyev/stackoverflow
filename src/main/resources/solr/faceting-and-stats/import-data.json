@@ -1,0 +1,38 @@
+[
+  {
+    "city_s": "Chicago",
+    "datadate_dt": "2014-04-11T00:00:00Z",
+    "charge_d": "58.5",
+    "spend_d": "104.5"
+  },
+  {
+    "city_s": "Chicago",
+    "datadate_dt": "2014-08-13T00:00:00Z",
+    "charge_d": "38.5",
+    "spend_d": "124.5"
+  },
+  {
+    "city_s": "Chicago",
+    "datadate_dt": "2014-12-15T00:00:00Z",
+    "charge_d": "18.5",
+    "spend_d": "145.5"
+  },
+  {
+    "city_s": "Chicago",
+    "datadate_dt": "2015-03-17T00:00:00Z",
+    "charge_d": "28.5",
+    "spend_d": "134.5"
+  },
+  {
+    "city_s": "Chicago",
+    "datadate_dt": "2015-07-19T00:00:00Z",
+    "charge_d": "25.5",
+    "spend_d": "117.5"
+  },
+  {
+    "city_s": "Tampa",
+    "datadate_dt": "2015-02-19T00:00:00Z",
+    "charge_d": "75.5",
+    "spend_d": "10.5"
+  }
+]
