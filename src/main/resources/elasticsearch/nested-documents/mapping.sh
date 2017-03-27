@@ -1,4 +1,6 @@
-#!/usr/local/bin/zsh
+#!/bin/zsh
+
+curl -XDELETE http://localhost:9200/my_users
 
 curl -XPUT http://localhost:9200/my_users -d '
 {

@@ -1,4 +1,4 @@
-#!/usr/local/bin/zsh
+#!/bin/zsh
 
 curl -XPUT http://localhost:9200/my_users/type1/1 -d '
 {
