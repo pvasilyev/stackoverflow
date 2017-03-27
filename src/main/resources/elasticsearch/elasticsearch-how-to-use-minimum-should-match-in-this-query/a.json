@@ -1,0 +1,10 @@
+{
+  "query": {
+    "match": {
+      "searchable": {
+        "query": "Quinta da Romaneira",
+        "minimum_should_match": "75%"
+      }
+    }
+  }
+}
