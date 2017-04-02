@@ -1,0 +1,361 @@
+{
+  "detail": {
+    "custom_analyzer": true,
+    "charfilters": [],
+    "tokenizer": {
+      "name": "standard",
+      "tokens": [
+        {
+          "token": "The",
+          "start_offset": 0,
+          "end_offset": 3,
+          "type": "<ALPHANUM>",
+          "position": 0,
+          "bytes": "[54 68 65]",
+          "positionLength": 1
+        },
+        {
+          "token": "quick",
+          "start_offset": 4,
+          "end_offset": 9,
+          "type": "<ALPHANUM>",
+          "position": 1,
+          "bytes": "[71 75 69 63 6b]",
+          "positionLength": 1
+        },
+        {
+          "token": "brown",
+          "start_offset": 10,
+          "end_offset": 15,
+          "type": "<ALPHANUM>",
+          "position": 2,
+          "bytes": "[62 72 6f 77 6e]",
+          "positionLength": 1
+        },
+        {
+          "token": "fox",
+          "start_offset": 16,
+          "end_offset": 19,
+          "type": "<ALPHANUM>",
+          "position": 3,
+          "bytes": "[66 6f 78]",
+          "positionLength": 1
+        },
+        {
+          "token": "jumps",
+          "start_offset": 20,
+          "end_offset": 25,
+          "type": "<ALPHANUM>",
+          "position": 4,
+          "bytes": "[6a 75 6d 70 73]",
+          "positionLength": 1
+        },
+        {
+          "token": "over",
+          "start_offset": 26,
+          "end_offset": 30,
+          "type": "<ALPHANUM>",
+          "position": 5,
+          "bytes": "[6f 76 65 72]",
+          "positionLength": 1
+        },
+        {
+          "token": "the",
+          "start_offset": 31,
+          "end_offset": 34,
+          "type": "<ALPHANUM>",
+          "position": 6,
+          "bytes": "[74 68 65]",
+          "positionLength": 1
+        },
+        {
+          "token": "lazy",
+          "start_offset": 35,
+          "end_offset": 39,
+          "type": "<ALPHANUM>",
+          "position": 7,
+          "bytes": "[6c 61 7a 79]",
+          "positionLength": 1
+        },
+        {
+          "token": "dog",
+          "start_offset": 40,
+          "end_offset": 43,
+          "type": "<ALPHANUM>",
+          "position": 8,
+          "bytes": "[64 6f 67]",
+          "positionLength": 1
+        }
+      ]
+    },
+    "tokenfilters": [
+      {
+        "name": "standard",
+        "tokens": [
+          {
+            "token": "The",
+            "start_offset": 0,
+            "end_offset": 3,
+            "type": "<ALPHANUM>",
+            "position": 0,
+            "bytes": "[54 68 65]",
+            "positionLength": 1
+          },
+          {
+            "token": "quick",
+            "start_offset": 4,
+            "end_offset": 9,
+            "type": "<ALPHANUM>",
+            "position": 1,
+            "bytes": "[71 75 69 63 6b]",
+            "positionLength": 1
+          },
+          {
+            "token": "brown",
+            "start_offset": 10,
+            "end_offset": 15,
+            "type": "<ALPHANUM>",
+            "position": 2,
+            "bytes": "[62 72 6f 77 6e]",
+            "positionLength": 1
+          },
+          {
+            "token": "fox",
+            "start_offset": 16,
+            "end_offset": 19,
+            "type": "<ALPHANUM>",
+            "position": 3,
+            "bytes": "[66 6f 78]",
+            "positionLength": 1
+          },
+          {
+            "token": "jumps",
+            "start_offset": 20,
+            "end_offset": 25,
+            "type": "<ALPHANUM>",
+            "position": 4,
+            "bytes": "[6a 75 6d 70 73]",
+            "positionLength": 1
+          },
+          {
+            "token": "over",
+            "start_offset": 26,
+            "end_offset": 30,
+            "type": "<ALPHANUM>",
+            "position": 5,
+            "bytes": "[6f 76 65 72]",
+            "positionLength": 1
+          },
+          {
+            "token": "the",
+            "start_offset": 31,
+            "end_offset": 34,
+            "type": "<ALPHANUM>",
+            "position": 6,
+            "bytes": "[74 68 65]",
+            "positionLength": 1
+          },
+          {
+            "token": "lazy",
+            "start_offset": 35,
+            "end_offset": 39,
+            "type": "<ALPHANUM>",
+            "position": 7,
+            "bytes": "[6c 61 7a 79]",
+            "positionLength": 1
+          },
+          {
+            "token": "dog",
+            "start_offset": 40,
+            "end_offset": 43,
+            "type": "<ALPHANUM>",
+            "position": 8,
+            "bytes": "[64 6f 67]",
+            "positionLength": 1
+          }
+        ]
+      },
+      {
+        "name": "lowercase",
+        "tokens": [
+          {
+            "token": "the",
+            "start_offset": 0,
+            "end_offset": 3,
+            "type": "<ALPHANUM>",
+            "position": 0,
+            "bytes": "[74 68 65]",
+            "positionLength": 1
+          },
+          {
+            "token": "quick",
+            "start_offset": 4,
+            "end_offset": 9,
+            "type": "<ALPHANUM>",
+            "position": 1,
+            "bytes": "[71 75 69 63 6b]",
+            "positionLength": 1
+          },
+          {
+            "token": "brown",
+            "start_offset": 10,
+            "end_offset": 15,
+            "type": "<ALPHANUM>",
+            "position": 2,
+            "bytes": "[62 72 6f 77 6e]",
+            "positionLength": 1
+          },
+          {
+            "token": "fox",
+            "start_offset": 16,
+            "end_offset": 19,
+            "type": "<ALPHANUM>",
+            "position": 3,
+            "bytes": "[66 6f 78]",
+            "positionLength": 1
+          },
+          {
+            "token": "jumps",
+            "start_offset": 20,
+            "end_offset": 25,
+            "type": "<ALPHANUM>",
+            "position": 4,
+            "bytes": "[6a 75 6d 70 73]",
+            "positionLength": 1
+          },
+          {
+            "token": "over",
+            "start_offset": 26,
+            "end_offset": 30,
+            "type": "<ALPHANUM>",
+            "position": 5,
+            "bytes": "[6f 76 65 72]",
+            "positionLength": 1
+          },
+          {
+            "token": "the",
+            "start_offset": 31,
+            "end_offset": 34,
+            "type": "<ALPHANUM>",
+            "position": 6,
+            "bytes": "[74 68 65]",
+            "positionLength": 1
+          },
+          {
+            "token": "lazy",
+            "start_offset": 35,
+            "end_offset": 39,
+            "type": "<ALPHANUM>",
+            "position": 7,
+            "bytes": "[6c 61 7a 79]",
+            "positionLength": 1
+          },
+          {
+            "token": "dog",
+            "start_offset": 40,
+            "end_offset": 43,
+            "type": "<ALPHANUM>",
+            "position": 8,
+            "bytes": "[64 6f 67]",
+            "positionLength": 1
+          }
+        ]
+      },
+      {
+        "name": "my_snowball",
+        "tokens": [
+          {
+            "token": "the",
+            "start_offset": 0,
+            "end_offset": 3,
+            "type": "<ALPHANUM>",
+            "position": 0,
+            "bytes": "[74 68 65]",
+            "keyword": false,
+            "positionLength": 1
+          },
+          {
+            "token": "quick",
+            "start_offset": 4,
+            "end_offset": 9,
+            "type": "<ALPHANUM>",
+            "position": 1,
+            "bytes": "[71 75 69 63 6b]",
+            "keyword": false,
+            "positionLength": 1
+          },
+          {
+            "token": "brown",
+            "start_offset": 10,
+            "end_offset": 15,
+            "type": "<ALPHANUM>",
+            "position": 2,
+            "bytes": "[62 72 6f 77 6e]",
+            "keyword": false,
+            "positionLength": 1
+          },
+          {
+            "token": "fox",
+            "start_offset": 16,
+            "end_offset": 19,
+            "type": "<ALPHANUM>",
+            "position": 3,
+            "bytes": "[66 6f 78]",
+            "keyword": false,
+            "positionLength": 1
+          },
+          {
+            "token": "jump",
+            "start_offset": 20,
+            "end_offset": 25,
+            "type": "<ALPHANUM>",
+            "position": 4,
+            "bytes": "[6a 75 6d 70]",
+            "keyword": false,
+            "positionLength": 1
+          },
+          {
+            "token": "over",
+            "start_offset": 26,
+            "end_offset": 30,
+            "type": "<ALPHANUM>",
+            "position": 5,
+            "bytes": "[6f 76 65 72]",
+            "keyword": false,
+            "positionLength": 1
+          },
+          {
+            "token": "the",
+            "start_offset": 31,
+            "end_offset": 34,
+            "type": "<ALPHANUM>",
+            "position": 6,
+            "bytes": "[74 68 65]",
+            "keyword": false,
+            "positionLength": 1
+          },
+          {
+            "token": "lazi",
+            "start_offset": 35,
+            "end_offset": 39,
+            "type": "<ALPHANUM>",
+            "position": 7,
+            "bytes": "[6c 61 7a 69]",
+            "keyword": false,
+            "positionLength": 1
+          },
+          {
+            "token": "dog",
+            "start_offset": 40,
+            "end_offset": 43,
+            "type": "<ALPHANUM>",
+            "position": 8,
+            "bytes": "[64 6f 67]",
+            "keyword": false,
+            "positionLength": 1
+          }
+        ]
+      }
+    ]
+  }
+}
