@@ -1,0 +1,51 @@
+{
+  "took" : 51,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 3,
+    "max_score" : null,
+    "hits" : [
+      {
+        "_index" : "my_fields",
+        "_type" : "field",
+        "_id" : "AVstopIp28V7rKtsY3mo",
+        "_score" : null,
+        "_source" : {
+          "name" : "Charlie"
+        },
+        "sort" : [
+          "Charlie"
+        ]
+      },
+      {
+        "_index" : "my_fields",
+        "_type" : "field",
+        "_id" : "AVstopIR28V7rKtsY3mn",
+        "_score" : null,
+        "_source" : {
+          "name" : "Bob"
+        },
+        "sort" : [
+          "Bob"
+        ]
+      },
+      {
+        "_index" : "my_fields",
+        "_type" : "field",
+        "_id" : "AVstopH428V7rKtsY3mm",
+        "_score" : null,
+        "_source" : {
+          "name" : "Alice"
+        },
+        "sort" : [
+          "Alice"
+        ]
+      }
+    ]
+  }
+}
